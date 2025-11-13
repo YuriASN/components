@@ -1,0 +1,30 @@
+diff --git a/dxvk/dxvk-2.7.1-5-dcfb183.yml b/dxvk/dxvk-2.7.1-5-dcfb183.yml
+new file mode 100644
+index 0000000..1a9498e
+--- /dev/null
++++ b/dxvk/dxvk-2.7.1-5-dcfb183.yml
+@@ -0,0 +1,10 @@
++Name: dxvk-2.7.1-5-dcfb183
++Provider: doitsujin
++Maintainer: CI
++Channel: unstable
++File:
++- file_name: dxvk-2.7.1-5-dcfb183.tar.gz
++  url: https://github.com/bottlesdevs/components/releases/download/dxvk-2.7.1-5-dcfb183/dxvk-2.7.1-5-dcfb183.tar.gz
++  file_checksum: 7d3b9d288538706531b2d3ad25fbac9c
++  file_size: 15280777
++  rename: dxvk-2.7.1-5-dcfb183.tar.gz
+diff --git a/input_files/14-dxvk.yml b/input_files/14-dxvk.yml
+index 952cb29..c6b6aea 100644
+--- a/input_files/14-dxvk.yml
++++ b/input_files/14-dxvk.yml
+@@ -1,7 +1,7 @@
+-dxvk-2.7.1-4-e2394e8:
++dxvk-2.7.1-5-dcfb183:
+   Category: dxvk
+   Channel: unstable
+-  Date: '1761740918'
++  Date: '1762988252'
+ dxvk-2.7.1:
+   Category: dxvk
+   Channel: stable
