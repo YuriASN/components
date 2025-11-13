@@ -1,0 +1,30 @@
+diff --git a/input_files/13-vkd3d-proton.yml b/input_files/13-vkd3d-proton.yml
+index c964469..b224bf6 100644
+--- a/input_files/13-vkd3d-proton.yml
++++ b/input_files/13-vkd3d-proton.yml
+@@ -1,7 +1,7 @@
+-vkd3d-proton-2.14.1-18-dd0babc:
++vkd3d-proton-2.14.1-19-25c8bbf:
+   Category: vkd3d
+   Channel: unstable
+-  Date: '1761648119'
++  Date: '1762971940'
+ vkd3d-proton-2.14.1:
+   Category: vkd3d
+   Channel: stable
+diff --git a/vkd3d/vkd3d-proton-2.14.1-19-25c8bbf.yml b/vkd3d/vkd3d-proton-2.14.1-19-25c8bbf.yml
+new file mode 100644
+index 0000000..1a0d788
+--- /dev/null
++++ b/vkd3d/vkd3d-proton-2.14.1-19-25c8bbf.yml
+@@ -0,0 +1,10 @@
++Name: vkd3d-proton-2.14.1-19-25c8bbf
++Provider: HansKristian-Work
++Maintainer: CI
++Channel: unstable
++File:
++- file_name: vkd3d-proton-2.14.1-19-25c8bbf.tar.gz
++  url: https://github.com/bottlesdevs/components/releases/download/vkd3d-proton-2.14.1-19-25c8bbf/vkd3d-proton-2.14.1-19-25c8bbf.tar.gz
++  file_checksum: 482daf2736e3aeb487b06b5f19083347
++  file_size: 5023034
++  rename: vkd3d-proton-2.14.1-19-25c8bbf.tar.gz
