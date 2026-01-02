@@ -641,6 +641,16 @@ vaniglia-21.1.0-cx:
 
 # ./input_files/10-GE-Proton.yml
 # -----------------------
+ge-proton10-28:
+  Category: runners
+  Sub-category: proton
+  Channel: stable
+  Date: '1767320204'
+ge-proton10-27:
+  Category: runners
+  Sub-category: proton
+  Channel: stable
+  Date: '1766409329'
 ge-proton10-26:
   Category: runners
   Sub-category: proton
@@ -1186,6 +1196,21 @@ ge-proton7-4:
 
 # ./input_files/11-kron4ek.yml
 # -----------------------
+kron4ek-wine-11.0-rc3-amd64:
+  Category: runners
+  Sub-category: wine
+  Channel: stable
+  Date: '1766407706'
+kron4ek-wine-11.0-rc3-staging-amd64:
+  Category: runners
+  Sub-category: wine
+  Channel: stable
+  Date: '1766407783'
+kron4ek-wine-11.0-rc3-staging-tkg-amd64:
+  Category: runners
+  Sub-category: wine
+  Channel: stable
+  Date: '1766407871'
 kron4ek-wine-11.0-rc1-amd64:
   Category: runners
   Sub-category: wine
@@ -2721,10 +2746,10 @@ vkd3d-proton-2.5:
 
 # ./input_files/14-dxvk.yml
 # -----------------------
-dxvk-2.7.1-7-21eb344:
+dxvk-2.7.1-8-584041f:
   Category: dxvk
   Channel: unstable
-  Date: '1765489088'
+  Date: '1767118831'
 dxvk-2.7.1:
   Category: dxvk
   Channel: stable
@@ -2955,3 +2980,16 @@ latencyflex-v0.1.1:
 latencyflex-v0.1.0:
   Category: latencyflex
   Channel: stable
+
+# ./input_files/18-proton-EM.yml
+# -----------------------
+proton-em-10.0-33:
+  Category: runners
+  Sub-category: proton
+  Channel: stable
+  Date: '1766867505'
+proton-em-10.0-32:
+  Category: runners
+  Sub-category: proton
+  Channel: stable
+  Date: '1763330873'
