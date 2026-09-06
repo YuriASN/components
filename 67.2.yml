@@ -32,6 +32,16 @@ winebridge-1.2.0:
 
 # ./input_files/3-soda.yml
 # -----------------------
+soda-11.0-9:
+  Category: runners
+  Sub-category: wine
+  Channel: stable
+  Date: '1788715977'
+  Platforms:
+    - linux
+  Architectures:
+    - x86_64
+    - aarch64
 soda-11.0-8:
   Category: runners
   Sub-category: wine
