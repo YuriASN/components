@@ -1,0 +1,19 @@
+Name: soda-11.0-9
+Provider: bottlesdevs
+Maintainer: CI
+Channel: stable
+File:
+  - file_name: soda-11.0-9-x86_64.tar.xz
+    url: https://github.com/bottlesdevs/wine/releases/download/soda-11.0-9/soda-11.0-9-x86_64.tar.xz
+    file_checksum: 2de5c79f420bbd725d86813aa1b683d8
+    file_size: 174030384
+    rename: soda-11.0-9-x86_64.tar.xz
+    architecture: x86_64
+    platform: linux
+  - file_name: soda-11.0-9-aarch64.tar.xz
+    url: https://github.com/bottlesdevs/wine/releases/download/soda-11.0-9/soda-11.0-9-aarch64.tar.xz
+    file_checksum: 793050450c77f21ec72659813d3e453b
+    file_size: 223192424
+    rename: soda-11.0-9-aarch64.tar.xz
+    architecture: aarch64
+    platform: linux

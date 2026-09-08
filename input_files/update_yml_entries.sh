@@ -42,7 +42,7 @@ update_entry () {
     yq -i -y "with_entries(if .key == \"$latest\" then .key = \"$component_name\" else . end) | .\"$component_name\".Channel = \"$channel\" | .\"$component_name\".Date = \"$created_at\"" $filename
 }
 
-latest=$(yq -r 'path(.[])[0]' $filename | grep -E -m1 "$nameprefix.*[[:digit:]]+$namesuffix")
+latest=$(yq -r 'path(.[])[0]' $filename | grep -E -m1 "$nameprefix.*[[:digit:]].*$namesuffix$")
 
 if [ -z "$latest" ]; then
     create_entry
@@ -73,6 +73,18 @@ else
 fi
 
 already_exists=$(yq -r 'path(.[])[0]' $filename | grep -x -m1 "$component_name")
+component_dir=$(dirname "$filename")/../$category
+if [ -n "$subcategory" ]; then
+    component_dir=$component_dir/$subcategory
+fi
+component_file=$component_dir/$component_name.yml
+
+if [ "$already_exists" != "" ] && [ ! -f "$component_file" ]; then
+    echo "Component descriptor missing."
+    echo "UPDATED=true" >> $GITHUB_ENV
+    exit 0
+fi
+
 if [ "$already_exists" != "" ] || ([ "$newer" -eq 0 ] && [ "$channel" = "unstable" ]); then
     echo "Already up to date."
     exit 0

@@ -1,7 +1,19 @@
-dxvk-2.7.1-7-21eb344:
+dxvk-3.1:
   Category: dxvk
-  Channel: unstable
-  Date: '1765489088'
+  Channel: stable
+  Date: '1787934163'
+dxvk-3.0.2:
+  Category: dxvk
+  Channel: stable
+  Date: '1784327860'
+dxvk-3.0.1:
+  Category: dxvk
+  Channel: stable
+  Date: '1783275971'
+dxvk-3.0:
+  Category: dxvk
+  Channel: stable
+  Date: '1782417683'
 dxvk-2.7.1:
   Category: dxvk
   Channel: stable
